@@ -31,7 +31,7 @@ Exports both the detailed weather_data and the summarized weekly_weather_report 
 
 - **all_weather_data (List of DataFrames):** An empty list initialized to store individual pandas DataFrames. Each DataFrame will contain the weather data for a single city during the forecast period. These are later concatenated into a single DataFrame.
 
- -**weather_data (pandas DataFrame):** This is the main DataFrame that consolidates all the fetched daily weather data for all cities after concatenating the DataFrames from all_weather_data.
+ - **weather_data (pandas DataFrame):** This is the main DataFrame that consolidates all the fetched daily weather data for all cities after concatenating the DataFrames from all_weather_data.
 
 - **get_weather_description(code) (Function):** A user-defined function that takes a Weather Code (an integer) as input and returns a human-readable string description of the weather condition (e.g., "Clear sky", "Moderate rain").
 
